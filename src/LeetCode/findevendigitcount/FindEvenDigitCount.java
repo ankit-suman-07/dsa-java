@@ -1,4 +1,4 @@
-package LeetCode;
+package LeetCode.findevendigitcount;
 
 public class FindEvenDigitCount {
     public static void main(String[] args) {
