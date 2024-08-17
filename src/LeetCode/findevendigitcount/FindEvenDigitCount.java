@@ -2,9 +2,12 @@ package LeetCode.findevendigitcount;
 
 public class FindEvenDigitCount {
     public static void main(String[] args) {
-        int[] nums = {23, 4, 567, 87, 1234};
+        int[] nums = {23, 4, 567, -87, 1234};
         int count = 0;
         for(int num: nums) {
+            if(num < 0) {
+                num *= -1;
+            }
             if(findEven(num)%2 == 0) {
                 count++;
             }

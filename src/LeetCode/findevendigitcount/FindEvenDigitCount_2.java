@@ -2,9 +2,13 @@ package LeetCode.findevendigitcount;
 
 public class FindEvenDigitCount_2 {
     public static void main(String[] args) {
-        int[] nums = {23, 4, 567, 87, 1234};
+        int[] nums = {23, 4, 567, -87, 1234};
         int count = 0;
         for(int num: nums) {
+
+            if(num < 0) {
+                num *= -1;
+            }
             // We do not need to check for any larger number as for next step,
             // the max limmit would get larger than integer values
             if((num>9 && num<100) || (num>999 && num<10000)
