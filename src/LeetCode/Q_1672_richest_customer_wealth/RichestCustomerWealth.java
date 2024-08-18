@@ -14,7 +14,7 @@ Explanation:
 Both customers are considered the richest with a wealth of 6 each, so return 6.
  */
 
-package LeetCode.richest_customer_wealth;
+package LeetCode.Q_1672_richest_customer_wealth;
 
 public class RichestCustomerWealth {
     public static void main(String[] args) {

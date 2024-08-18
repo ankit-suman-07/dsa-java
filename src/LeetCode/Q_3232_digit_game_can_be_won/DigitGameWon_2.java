@@ -1,4 +1,4 @@
-package LeetCode.digit_game_can_be_won;
+package LeetCode.Q_3232_digit_game_can_be_won;
 
 public class DigitGameWon_2 {
     public static void main(String[] args) {

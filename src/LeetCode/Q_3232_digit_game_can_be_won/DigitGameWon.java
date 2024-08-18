@@ -14,7 +14,7 @@ Explanation:
 Alice cannot win by choosing either single-digit or double-digit numbers.
  */
 
-package LeetCode.digit_game_can_be_won;
+package LeetCode.Q_3232_digit_game_can_be_won;
 
 public class DigitGameWon {
     public static void main(String[] args) {
