@@ -31,7 +31,6 @@ public class BinarySearch_InfiniteArray {
                 end = arr.length - 1;
             }
         }
-        System.out.println("Target at : ");
         return searchInfiniteArray(arr, start, end, target);
     }
 
