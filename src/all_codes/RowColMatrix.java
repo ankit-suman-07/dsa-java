@@ -1,5 +1,7 @@
 package all_codes;
 
+import java.util.Arrays;
+
 /*
 Search for an element in a matrix where it is sorted row-wise and column-wise
  */
@@ -14,6 +16,7 @@ public class RowColMatrix {
         int target = 12;
         int[] answer = search(matrix, target);
         System.out.println(answer[0] + ", " +  answer[1]);
+        System.out.println(Arrays.toString(search(matrix, target)));
     }
 
     static int[] search(int[][] matrix, int target) {
